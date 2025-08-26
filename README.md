@@ -1,42 +1,47 @@
-# Análise de Desempenho de Vendas - Business Intelligence
+# Análise de Desempenho de Vendas - Projeto Completo de BI
 
 ### Sobre o Projeto
-
-Este projeto demonstra um fluxo de trabalho completo de **Análise de Dados e Business Intelligence (BI)**, do início ao fim. O objetivo principal foi analisar um conjunto de dados de vendas de uma loja de varejo para extrair **insights de negócio** e identificar padrões que ajudem na tomada de decisões estratégicas.
-
-As principais etapas do projeto incluíram:
-- **Pré-processamento e Limpeza de Dados:** Organização e tratamento das informações para garantir a qualidade da análise.
-- **Análise Exploratória de Dados (EDA):** Identificação de tendências, sazonalidades e principais fatores de desempenho através de visualizações.
-- **Extração de Insights:** Geração de conclusões e recomendações práticas para o negócio.
+Este projeto demonstra um fluxo de trabalho de ponta a ponta em **Análise de Dados** e **Business Intelligence (BI)**. O objetivo foi explorar e extrair insights de um conjunto de dados de vendas de uma loja de varejo, usando **Python** para a análise profunda e **Power BI** para a criação de um dashboard interativo para tomada de decisões estratégicas.
 
 ### Tecnologias Utilizadas
-
-- **Python**: Linguagem de programação principal.
-- **Pandas**: Para manipulação e análise de dados.
-- **Matplotlib e Seaborn**: Para a criação de visualizações e gráficos.
-- **Jupyter Notebook**: Ambiente interativo para o desenvolvimento da análise.
+-   **Python**: Linguagem de programação para manipulação e análise de dados.
+-   **Pandas**: Biblioteca para limpeza e transformação dos dados.
+-   **Matplotlib** e **Seaborn**: Para a criação de visualizações exploratórias.
+-   **Power BI**: Ferramenta de Business Intelligence para a construção do dashboard final.
+-   **Git** e **GitHub**: Para controle de versão e hospedagem do projeto.
 
 ---
 
-### Principais Insights e Análises
+### O Processo de Análise e os Primeiros Insights
 
-As análises geraram conclusões valiosas sobre o desempenho da empresa:
+O primeiro passo foi a análise exploratória dos dados usando **Python** e o **Jupyter Notebook**. Esta etapa foi crucial para identificar tendências, padrões e anomalias antes de construir o dashboard.
 
-1.  **Vendas por Categoria:**
-    O gráfico abaixo revela o desempenho de cada categoria de produto. Embora as vendas das categorias 'Decoração', 'Ferramentas', 'Alimentos' e 'Eletrônicos' sejam semelhantes, a categoria **Roupas** apresentou o menor desempenho em termos de receita total.
-
+* **Vendas por Categoria**: Este gráfico revelou o desempenho de vendas de cada categoria de produto, mostrando que a categoria "Roupas" teve a menor receita total.
     ![Gráfico de Vendas por Categoria](grafico1.png)
 
-2.  **Sazonalidade das Vendas:**
-    O gráfico de vendas mensais demonstra um claro padrão de sazonalidade, com picos de vendas significativos no final de cada ano. O maior pico ocorreu em **novembro de 2024**, sugerindo que as vendas de final de ano (como Black Friday e Natal) são um fator crucial para a empresa. Além disso, as vendas gerais parecem ter uma tendência de crescimento anual.
+* **Sazonalidade das Vendas**: A análise temporal demonstrou um padrão de vendas cíclico, com picos significativos no final de cada ano, especialmente em novembro e dezembro, o que sugere a influência de feriados e eventos como a Black Friday.
+    ![Gráfico de Sazonalidade](grafico2.png)
 
-    ![Gráfico de Vendas por Mês](grafico2.png)
+---
+### O Produto Final: Dashboard de BI no Power BI
+
+Com os dados limpos e os insights iniciais extraídos, a etapa final foi criar um dashboard interativo no **Power BI**. Este dashboard serve como uma ferramenta de BI para que qualquer pessoa de negócio possa monitorar o desempenho das vendas.
+
+#### Componentes do Dashboard
+
+* **Visão Geral de Vendas**: Um cartão de métricas mostra o total de vendas.
+* **Distribuição de Vendas**: Gráficos de barras detalham o desempenho de vendas por categoria e cidade.
+* **Análise Temporal**: Um gráfico de linha exibe a tendência de vendas ao longo do tempo.
+
+![Visão geral do Dashboard](dashboard/pbi.jpg)
+![Gráfico de Vendas por Categoria e Cidade](dashboard/pbi2.jpg)
+![Análise de Vendas Detalhada](dashboard/pb3.jpg)
 
 ---
 
 ### Como Rodar o Projeto
-
-Para replicar este projeto, siga os seguintes passos:
+Para replicar este projeto, siga estes passos:
 1.  Clone o repositório: `git clone https://github.com/Cor4l92/analise-desempenho-vendas-bi.git`
-2.  Instale as bibliotecas necessárias: `pip install pandas matplotlib seaborn notebook`
-3.  Execute o Jupyter Notebook na pasta do projeto: `jupyter notebook --browser=edge`
+2.  Instale as bibliotecas Python: `pip install pandas matplotlib seaborn notebook`
+3.  Execute o Jupyter Notebook na pasta `notebook/`: `jupyter notebook --browser=edge`
+4.  Abra o arquivo `.pbix` na pasta `dashboard/` com o Power BI Desktop.

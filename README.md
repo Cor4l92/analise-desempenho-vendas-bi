@@ -30,7 +30,7 @@ As análises geraram conclusões valiosas sobre o desempenho da empresa:
 2.  **Sazonalidade das Vendas:**
     O gráfico de vendas mensais demonstra um claro padrão de sazonalidade, com picos de vendas significativos no final de cada ano. O maior pico ocorreu em **novembro de 2024**, sugerindo que as vendas de final de ano (como Black Friday e Natal) são um fator crucial para a empresa. Além disso, as vendas gerais parecem ter uma tendência de crescimento anual.
 
-    ![Gráfico de Vendas por Mês](grafico 2.png)
+    ![Gráfico de Vendas por Mês](grafico2.png)
 
 ---
 

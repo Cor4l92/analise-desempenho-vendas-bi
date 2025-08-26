@@ -1,7 +1,3 @@
-# analise-desempenho-vendas-bi
-Análise de dados e Business Intelligence (BI)
-
-
 # Análise de Desempenho de Vendas - Business Intelligence
 
 ### Sobre o Projeto
@@ -20,6 +16,8 @@ As principais etapas do projeto incluíram:
 - **Matplotlib e Seaborn**: Para a criação de visualizações e gráficos.
 - **Jupyter Notebook**: Ambiente interativo para o desenvolvimento da análise.
 
+---
+
 ### Principais Insights e Análises
 
 As análises geraram conclusões valiosas sobre o desempenho da empresa:
@@ -27,12 +25,14 @@ As análises geraram conclusões valiosas sobre o desempenho da empresa:
 1.  **Vendas por Categoria:**
     O gráfico abaixo revela o desempenho de cada categoria de produto. Embora as vendas das categorias 'Decoração', 'Ferramentas', 'Alimentos' e 'Eletrônicos' sejam semelhantes, a categoria **Roupas** apresentou o menor desempenho em termos de receita total.
 
-    ![Gráfico de Vendas por Categoria](caminho_da_sua_imagem_de_vendas_por_categoria.png)
+    ![Gráfico de Vendas por Categoria](grafico1.png)
 
 2.  **Sazonalidade das Vendas:**
     O gráfico de vendas mensais demonstra um claro padrão de sazonalidade, com picos de vendas significativos no final de cada ano. O maior pico ocorreu em **novembro de 2024**, sugerindo que as vendas de final de ano (como Black Friday e Natal) são um fator crucial para a empresa. Além disso, as vendas gerais parecem ter uma tendência de crescimento anual.
 
-    ![Gráfico de Vendas por Mês](caminho_da_sua_imagem_de_vendas_por_mes.png)
+    ![Gráfico de Vendas por Mês](grafico 2.png)
+
+---
 
 ### Como Rodar o Projeto
 
